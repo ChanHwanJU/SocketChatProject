@@ -26,6 +26,9 @@ public class ChatActivity extends AppCompatActivity {
     private EditText chat_edit;
     private Button chat_send;
 
+    private Button btnMenu;
+    private Button finish;
+
     private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     private DatabaseReference databaseReference = firebaseDatabase.getReference();
 
@@ -39,6 +42,9 @@ public class ChatActivity extends AppCompatActivity {
         chat_edit = (EditText) findViewById(R.id.chat_edit);
         chat_send = (Button) findViewById(R.id.chat_sent);
 
+        finish = (Button) findViewById(R.id.btnFinish);
+        btnMenu = (Button) findViewById(R.id.btnMenu);
+
         // 로그인 화면에서 받아온 채팅방 이름, 유저 이름 저장
         Intent intent = getIntent();
         CHAT_NAME = intent.getStringExtra("chatName");
@@ -47,6 +53,23 @@ public class ChatActivity extends AppCompatActivity {
         // 채팅 방 입장
         openChat(CHAT_NAME);
 
+        // Start 화면으로 전환
+        finish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent st = new Intent(ChatActivity.this , StartActivity.class);
+                startActivity(st);
+                finish();
+            }
+        });
+
+        btnMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent im = new Intent(ChatActivity.this, PopupActivity.class);
+                startActivity(im);
+            }
+        });
         // 메시지 전송 버튼에 대한 클릭 리스너 지정
         chat_send.setOnClickListener(new View.OnClickListener() {
             @Override
