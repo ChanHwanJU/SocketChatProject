@@ -67,6 +67,12 @@
                 android:textSize="10pt"
                 android:layout_gravity="center"
                 android:id="@+id/list"/>
+            <ListView
+                android:id="@+id/user_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
 
     </LinearLayout>
         <LinearLayout

@@ -63,10 +63,12 @@ public class ChatActivity extends AppCompatActivity {
             }
         });
 
+        //메뉴 창으로 전환
         btnMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent im = new Intent(ChatActivity.this, PopupActivity.class);
+                intent.putExtra("userName", USER_NAME);
                 startActivity(im);
             }
         });

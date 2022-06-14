@@ -11,6 +11,7 @@ public class ChatDTO {
         this.message = message;
     }
 
+
     public void setUserName(String userName) {
         this.userName = userName;
     }
