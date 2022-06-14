@@ -5,7 +5,7 @@ public class ChatDTO {
     private String userName;
     private String message;
 
-    public ChatDTO() {}
+    ChatDTO(){};
     public ChatDTO(String userName, String message) {
         this.userName = userName;
         this.message = message;
