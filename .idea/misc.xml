@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ghkdz/AndroidStudioProjects/Chat/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.342" />
+        <entry key="..\:/Users/ghkdz/AndroidStudioProjects/Chat/app/src/main/res/drawable/ic_launcher_background.xml" value="0.342" />
+        <entry key="..\:/Users/ghkdz/AndroidStudioProjects/Chat/app/src/main/res/layout/activity_chat.xml" value="0.33" />
+        <entry key="..\:/Users/ghkdz/AndroidStudioProjects/Chat/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ghkdz/AndroidStudioProjects/Chat/app/src/main/res/layout/activity_popup.xml" value="0.33" />
+        <entry key="..\:/Users/ghkdz/AndroidStudioProjects/Chat/app/src/main/res/layout/activity_start.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/ghkdz/AndroidStudioProjects/Chat/app/src/main/res/layout/activity_start2.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/ghkdz/AndroidStudioProjects/Chat/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.342" />
+        <entry key="..\:/Users/ghkdz/AndroidStudioProjects/Chat/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.342" />
+        <entry key="..\:/Users/home/OneDrive/Documents/GitHub/SocketChatProject/app/src/main/res/drawable/custom.xml" value="0.1" />
+        <entry key="..\:/Users/home/OneDrive/Documents/GitHub/SocketChatProject/app/src/main/res/drawable/round_blue_button.xml" value="0.1" />
+        <entry key="..\:/Users/home/OneDrive/Documents/GitHub/SocketChatProject/app/src/main/res/drawable/round_blue_dark.xml" value="0.1" />
+        <entry key="..\:/Users/home/OneDrive/Documents/GitHub/SocketChatProject/app/src/main/res/drawable/round_blue_dark_2.xml" value="0.104" />
+        <entry key="..\:/Users/home/OneDrive/Documents/GitHub/SocketChatProject/app/src/main/res/drawable/round_purple.xml" value="0.1" />
+        <entry key="..\:/Users/home/OneDrive/Documents/GitHub/SocketChatProject/app/src/main/res/drawable/round_white.xml" value="0.1" />
+        <entry key="..\:/Users/home/OneDrive/Documents/GitHub/SocketChatProject/app/src/main/res/layout/activity_main.xml" value="0.317481884057971" />
+        <entry key="..\:/Users/home/OneDrive/Documents/GitHub/SocketChatProject/app/src/main/res/layout/activity_play_dice_screen_one.xml" value="0.18" />
+        <entry key="..\:/Users/home/OneDrive/Documents/GitHub/SocketChatProject/app/src/main/res/layout/activity_player_name.xml" value="0.3675925925925926" />
+        <entry key="..\:/Users/home/OneDrive/Documents/GitHub/SocketChatProject/app/src/main/res/layout/activity_popup.xml" value="0.33" />
+        <entry key="..\:/Users/home/OneDrive/Documents/GitHub/SocketChatProject/app/src/main/res/layout/activity_user_info.xml" value="0.35185185185185186" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

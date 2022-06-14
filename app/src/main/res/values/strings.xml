@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="play_dice_game">Play Dice Game</string>
+    <string name="play">PLAY</string>
+    <string name="dice_game">Dice Game</string>
+    <string name="enter_game_username">Enter Game UserName</string>
+    <string name="start_game">START GAME</string>
+    <string name="player_one">Player One</string>
+    <string name="player_two">Player Two</string>
+    <string name="dice_score">Dice Score</string>
+    <string name="roll_dice">ROLL DICE</string>
+</resources>
